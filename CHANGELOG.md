@@ -4,6 +4,7 @@
 
 - `apollo-gateway`: Pass `context` through to the `graphql` command in `LocalGraphQLDatasource` `process` method [PR #2821](https://github.com/apollographql/apollo-server/pull/2821)
 - `apollo-engine-reporting`: Set `forbiddenOperation` and `registeredOperation` later in the request lifecycle [PR #2828](https://github.com/apollographql/apollo-server/pull/2828)
+- `apollo-server-core`: fix setting `engine: false` should ignore `ENGINE_API_KEY` in environment variable [PR #2850](https://github.com/apollographql/apollo-server/pull/2850)
 
 ### v2.6.2
 
