@@ -3,8 +3,15 @@
 ### vNext
 
 - `apollo-gateway`: Pass `context` through to the `graphql` command in `LocalGraphQLDatasource` `process` method [PR #2821](https://github.com/apollographql/apollo-server/pull/2821)
+- `apollo-gateway`: Fix gateway not sending needed variables for subqueries not at the root level [PR #2867](https://github.com/apollographql/apollo-server/pull/2867)
+- `apollo-federation`: Allow matching enums/scalars in separate services and validate that enums have matching values [PR #2829](https://github.com/apollographql/apollo-server/pull/2829).
+- `apollo-federation`: Strip `@external` fields from interface extensions [PR #2848](https://github.com/apollographql/apollo-server/pull/2848)
+- `apollo-federation`: Add support for list type keys in federation. [PR #2841](https://github.com/apollographql/apollo-server/pull/2841)
+- `apollo-federation`: Deduplicate variable definitions for subqueries [PR #2840](https://github.com/apollographql/apollo-server/pull/2840)
+- `apollo-federation`: Preserve docstrings in SDL of federated services. [PR #2830](https://github.com/apollographql/apollo-server/pull/2830)
 - `apollo-engine-reporting`: Set `forbiddenOperation` and `registeredOperation` later in the request lifecycle [PR #2828](https://github.com/apollographql/apollo-server/pull/2828)
-- `apollo-server-core`: fix setting `engine: false` should ignore `ENGINE_API_KEY` in environment variable [PR #2850](https://github.com/apollographql/apollo-server/pull/2850)
+- `apollo-server-core`: Bug fix: Setting `engine: false` should ignore `ENGINE_API_KEY` in environment variable [PR #2850](https://github.com/apollographql/apollo-server/pull/2850)
+- `apollo-server-core`: Add queryHash to GraphQLExecutor for federation [PR #2822](https://github.com/apollographql/apollo-server/pull/2822)
 
 ### v2.6.2
 
